@@ -29,7 +29,7 @@
                 android:layout_width="260dp"
                 android:layout_height="260dp"
                 android:layout_margin="20dp"
-                android:src="@drawable/imagepers"
+                android:src="@drawable/person"
                 tools:ignore="ContentDescription" />
 
 
