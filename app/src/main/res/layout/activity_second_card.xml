@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Second_Card">
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/layout_border"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/details"
+            style="@style/text_style"
+            android:fontFamily="@font/regul" />
+    <TextView
+        android:id="@+id/link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/linkColor"
+        android:drawableStart="@drawable/iconhome_"
+        style="@style/text_info"
+        android:text="@string/link"
+        tools:ignore="UseCompatTextViewDrawableXml" />
+
+        <TextView
+            android:id="@+id/employee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            style="@style/text_info"
+            android:text="@string/employee"
+            android:drawableStart="@drawable/pers"
+            tools:ignore="UseCompatTextViewDrawableXml" />
+   <LinearLayout
+    android:id="@+id/location_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            style="@style/text_info"
+            android:drawableStart="@drawable/iconpinoutline_"
+            android:layout_marginEnd="5dp"
+            android:text="@string/location"
+            tools:ignore="UseCompatTextViewDrawableXml" />
+    <TextView
+        android:id="@+id/location2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginStart="0dp"
+        style="@style/text_info"
+        android:text="@string/location2"
+        android:textSize="21sp" />
+          </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/note_main"
+            android:layout_marginStart="28dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/note1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                style="@style/text_info"
+                android:layout_marginEnd="2dp"
+                android:text="@string/note"
+                />
+            <TextView
+                android:id="@+id/note2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginStart="0dp"
+                style="@style/text_info"
+                android:text="@string/note2"
+                android:layout_marginEnd="0dp"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginStart="38dp"
+            style="@style/text_info"
+            android:text="@string/time"
+           />
+    </LinearLayout>
+</LinearLayout>

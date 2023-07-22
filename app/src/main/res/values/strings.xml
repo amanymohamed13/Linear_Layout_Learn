@@ -4,4 +4,25 @@
     <string name="position">CEO , ProCrew</string>
     <string name="phone">Tel : 369 258 147</string>
     <string name="mail">Email: h@procrew.pro</string>
+    <string name="details">Company Details</string>
+    <string name="link">www.procrew.pro</string>
+    <string name="employee">Employees : 50 - 100</string>
+    <string name="location">Location </string>
+    <string name="location2">: Alexandria , Egypt</string>
+    <string name="note">Note</string>
+    <string name="note2"> : I am available everyday from</string>
+    <string name="time">9:00 AM to 5:00 PM</string>
+    <string name="num1">29</string>
+    <string name="num1_details">Posts</string>
+    <string name="num2">4,253</string>
+    <string name="num2_details">Followers</string>
+    <string name="num3">226</string>
+    <string name="num3_details">Following</string>
+    <string name="ui_des">Better UX Better World</string>
+    <string name="design">Designer</string>
+    <string name="desc"><font color="@color/black">Bite-Sized learnings from my experience as a</font> <font color="#1565C0">#ux</font></string>
+    <string name="desc2"><font color="#1565C0">#designer</font> <font color="@color/black">for the next generation Product Peeps</font></string>
+    <string name="desc3"><font color="@color/black">BUBW Podcast-Spotify...  </font><font color="#FFCCCCCC">more</font> </string>
+    <string name="last_link">taplink..cc/ux.bubw</string>
+    <string name="follow"><u>Follow On</u></string>
 </resources>

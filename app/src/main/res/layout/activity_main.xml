@@ -2,9 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="horizontal"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -44,12 +44,10 @@
 
             <TextView
                 android:id="@+id/text_name"
+                style="@style/text_style"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/nunitosansbold"
-                android:text="@string/name"
-                android:textColor="@color/black"
-                android:textSize="32sp" />
+                android:text="@string/name" />
 
             <TextView
                 android:id="@+id/text_pos"
@@ -58,9 +56,9 @@
                 android:fontFamily="@font/nunitosanslight"
                 android:text="@string/position"
                 android:textColor="@color/gray"
-                android:textSize="32sp"
-                />
+                android:textSize="26sp" />
         </LinearLayout>
+
         <LinearLayout
             android:id="@+id/min_layout"
             android:layout_width="match_parent"
@@ -69,29 +67,24 @@
 
             <TextView
                 android:id="@+id/phone_txt"
+                style="@style/text_child"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="28dp"
+                android:layout_marginStart="24dp"
                 android:drawablePadding="24dp"
-                android:fontFamily="@font/nunitosansbold"
                 android:text="@string/phone"
-                android:textColor="@color/gray"
-                android:textSize="25sp"
                 app:drawableLeftCompat="@drawable/phone" />
 
             <TextView
                 android:id="@+id/mail_txt"
+                style="@style/text_child"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="40dp"
                 android:drawablePadding="22dp"
-                android:fontFamily="@font/nunitosansbold"
                 android:text="@string/mail"
-                android:textColor="@color/gray"
-                android:textSize="25sp"
                 app:drawableLeftCompat="@drawable/mail" />
         </LinearLayout>
-
     </LinearLayout>
 
 </LinearLayout>
